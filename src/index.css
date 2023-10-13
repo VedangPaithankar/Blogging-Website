@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background-color: #1d1d1d;
+  font-family: 'Submariner';
+}
+
+.cc{
+  width: 1150px;
+  height: 200px;
+  font-family: 'Submariner';
+}
+
+.shadow-solid {
+  box-shadow: 0.3rem 0.3rem 0 0 #E94560;
+  transition: 0.5s;
+}
+
+.shadow-solid:hover{
+  box-shadow: 0px 0px 0 0 #E94560;
+  transition: 0.5s;
+}
+
+.cr{
+  width: 120px;
+  height: 30px;
+  font-family: 'Submariner';
+}
+
+.view-blog{
+  width: 100vh;
+  height: auto;
+}
+
+.view-image{
+  height: 475px;
+  margin-bottom: 3%;
+}
+
+@media screen and (max-width: 1200px) {
+  .cc{
+    width: 700px;
+    height: 200px;
+    font-family: 'Submariner';
+    font-size: 15px; 
+  }
+  .mdpost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 7px; 
+    justify-items: center;
+  }
+  .view-image{
+    height: 275px;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cc{
+    width: 400px;
+    height: 300px;
+    font-family: 'Submariner';
+    font-size: 7px; 
+    margin: 2%;
+  }
+  .mdpost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    font-size: 7px; 
+    margin: 2%;
+  }
+  .view-image{
+    height: 125px;
+    margin-bottom: 3%;
+  }
+}
